@@ -28,6 +28,7 @@ const store = configureStore();
 
 
 const appRoot = document.getElementById('app');
+
 const jsx = (
     <Provider store={store}>
         <AppRouter />
